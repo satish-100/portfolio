@@ -5,7 +5,7 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { ThemeProvider } from './hooks/themeHook/themeContext';
 
 const Root = () => {
-  return (
+  return  (
     <ThemeProvider>
       <App />
     </ThemeProvider>
